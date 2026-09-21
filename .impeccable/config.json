@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "createdAt": "2026-09-19T08:24:01.881Z",
+        "reason": "Arial is only the generic body-tag fallback stack (font-family: Arial, Helvetica, sans-serif) for un-styled elements; the actual brand typefaces (Inter 700/400/600, Montserrat 700) are applied explicitly on the hero via font-inter/font-montserrat per the client's spec"
+      }
+    ]
+  }
+}
