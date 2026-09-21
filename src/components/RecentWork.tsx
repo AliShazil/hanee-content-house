@@ -1,12 +1,24 @@
-import { InstagramIcon } from "./InstagramIcon";
-
 const REELS = [
-  { id: 1, gradient: "from-slate-800 via-slate-900 to-black" },
-  { id: 2, gradient: "from-zinc-700 via-neutral-900 to-black" },
-  { id: 3, gradient: "from-stone-700 via-stone-900 to-black" },
-  { id: 4, gradient: "from-emerald-900 via-neutral-900 to-black" },
-  { id: 5, gradient: "from-amber-900 via-neutral-900 to-black" },
-  { id: 6, gradient: "from-sky-900 via-neutral-900 to-black" },
+  {
+    id: 1,
+    src: "https://zdccaqftbogey5lb.public.blob.vercel-storage.com/HV1.mp4",
+  },
+  {
+    id: 2,
+    src: "https://zdccaqftbogey5lb.public.blob.vercel-storage.com/HV2.mp4",
+  },
+  {
+    id: 3,
+    src: "https://zdccaqftbogey5lb.public.blob.vercel-storage.com/HV3.mp4",
+  },
+  {
+    id: 4,
+    src: "https://zdccaqftbogey5lb.public.blob.vercel-storage.com/HV4.mp4",
+  },
+  {
+    id: 5,
+    src: "https://zdccaqftbogey5lb.public.blob.vercel-storage.com/HV5.mp4",
+  },
 ];
 
 export function RecentWork() {
@@ -37,11 +49,17 @@ export function RecentWork() {
         {REELS.map((reel) => (
           <div
             key={reel.id}
-            className={`relative aspect-9/16 w-[220px] flex-none overflow-hidden rounded-2xl bg-gradient-to-b ${reel.gradient} sm:w-[280px]`}
+            className="relative aspect-9/16 w-[220px] flex-none overflow-hidden rounded-2xl bg-black sm:w-[280px]"
           >
-            <div className="absolute top-3 right-3 flex h-8 w-8 items-center justify-center rounded-full bg-black/50 backdrop-blur-sm">
-              <InstagramIcon className="h-4 w-4 text-white" />
-            </div>
+            <video
+              src={reel.src}
+              className="h-full w-full object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+            />
           </div>
         ))}
       </div>
