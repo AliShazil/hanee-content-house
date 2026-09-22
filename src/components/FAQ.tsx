@@ -9,43 +9,43 @@ type QA = {
 
 const QUESTIONS: QA[] = [
   {
-    question: "What are your packages?",
+    question: "What do you need from me to get started?",
     answer:
-      "Priced by filming time: two hours is $329, six hours is $629, raw media included. Two hours is the minimum. Extra cameras or bigger projects are quoted on top, so reach out with the idea and we point you to the right service.",
+      "Just your raw footage and a quick brief on the vibe or platform you're posting to. Send it over and we get started the same day.",
   },
   {
-    question: "What do you film?",
+    question: "What do you edit?",
     answer:
-      "Content for social: reels, TikToks, YouTube, brand day-in-the-life, events, product shoots. If it needs a camera and someone who knows how to use it, it's in scope.",
+      "Content for social: reels, TikToks, YouTube, brand day-in-the-life, events, product videos. If it needs cutting, color, and sound, it's in scope.",
   },
   {
-    question: "Do you travel?",
+    question: "Do I need to be local to work with you?",
     answer:
-      "Yes. Miami is home base, but flights are welcome. Send the location and dates and we'll quote travel on top.",
+      "No, everything is done remotely. Send your footage from anywhere and get it back the same day.",
   },
   {
-    question: "How fast do I get my footage?",
+    question: "How fast do I get my edited video?",
     answer:
-      "Raw selects land in your inbox within 48 hours of the shoot. Rush turnaround is available if you need it sooner.",
+      "Same-day turnaround as standard. Send your footage and get the edit back before the day is done.",
   },
   {
-    question: "Do I get the raw files?",
-    answer: "Yes, raw media is included in every package. Nothing sits behind an extra fee.",
+    question: "Can I ask for revisions?",
+    answer: "Yes, revisions are part of the process. Flag what you want changed and it's handled quickly.",
   },
   {
-    question: "How does the deposit work?",
+    question: "What file formats do you accept?",
     answer:
-      "A deposit locks your date on the calendar. It's applied toward the final invoice, not an add-on cost.",
+      "Send footage in whatever format you shot it in, phone, camera, drone. We handle the conversion and edit from there.",
   },
   {
-    question: "How far in advance do I need to book?",
+    question: "How far in advance do I need to send my footage?",
     answer:
-      "A few days is usually enough, and last-minute requests are welcome when the calendar allows. Booking earlier just guarantees the date.",
+      "No advance notice needed. Send it whenever it's ready and we start the same day.",
   },
   {
-    question: "What if I need to reschedule?",
+    question: "What if I need to send more footage midway?",
     answer:
-      "Just send a message. Weather and schedule changes happen, one reschedule is free with a heads up.",
+      "Just send it over. We'll fold it into the edit as long as it arrives before the final cut is locked.",
   },
 ];
 

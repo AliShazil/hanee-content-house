@@ -29,7 +29,7 @@ export function RecentWork() {
           We build relationships.
         </p>
         <p className="mx-auto mt-1 max-w-[560px] font-montserrat text-[28px] leading-[34px] font-semibold text-[rgb(107,107,102)] sm:text-[34px] sm:leading-[44px]">
-          A videographer you can count on, on time, every time.
+          A video editor you can count on, on time, every time.
         </p>
       </div>
 
@@ -41,7 +41,7 @@ export function RecentWork() {
           Made to rewatch.
         </h2>
         <p className="mt-4 font-montserrat text-[16px] leading-[26px] font-normal text-[rgb(155,155,150)]">
-          Creators, brands, and moments worth keeping.
+          Creators, brands, and footage turned into content worth keeping.
         </p>
       </div>
 

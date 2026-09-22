@@ -12,17 +12,17 @@ const STEPS: Step[] = [
   {
     number: "01",
     title: "The Plan",
-    body: "Tell me what we are filming and where it goes: Instagram, YouTube, wherever you post. Send the location and a deposit, and the date is locked.",
+    body: "Tell me about the footage and where it's going: Instagram, YouTube, wherever you post. Send over the raw files and a quick brief, and we get started.",
   },
   {
     number: "02",
-    title: "We Film",
-    body: "I show up on time, camera in hand, and shoot the list we agreed on plus a few extra angles along the way. No crew, no clipboard, just the footage.",
+    title: "We Edit",
+    body: "I get to work on your footage right away, cutting to the brief we agreed on plus a few creative touches along the way. No crew, no back-and-forth, just the edit.",
   },
   {
     number: "03",
     title: "Preview Deliverables",
-    body: "Selects land in your inbox within 48 hours. Flag your favorites, I finish the edit, and the final files are yours to post.",
+    body: "A preview lands in your inbox the same day. Flag any changes, I finish the polish, and the final files are yours to post.",
   },
 ];
 

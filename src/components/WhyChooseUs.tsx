@@ -12,22 +12,22 @@ const FEATURES: Feature[] = [
     label: "Prompt Communication",
     heading: "One direct line.",
     description:
-      "The person you text is the person holding the camera. No agency, no account manager, nothing lost in between.",
+      "The person you text is the person editing your footage. No agency, no account manager, nothing lost in between.",
     layout: "row",
     span: 7,
   },
   {
-    label: "Same-Day Footage",
+    label: "Same-Day Turnaround",
     heading: "Today.",
-    description: "Your footage lands the same day we film.",
+    description: "Your edited video lands the same day you send the footage.",
     layout: "col",
     span: 5,
   },
   {
-    label: "Fast and Passport Ready",
+    label: "Fast and Fully Remote",
     heading: "Anywhere.",
     description:
-      "Last-minute bookings are welcome, in Miami or anywhere a flight goes.",
+      "Last-minute requests are welcome, wherever you send the files from.",
     layout: "col",
     span: 5,
   },
@@ -35,7 +35,7 @@ const FEATURES: Feature[] = [
     label: "Serious Value",
     heading: "Professional quality. Lean footprint.",
     description:
-      "No crew on your invoice. You pay for the shoot, not the overhead, while the quality stays fully professional.",
+      "No studio overhead on your invoice. You pay for the edit, not a team, while the quality stays fully professional.",
     layout: "row",
     accent: true,
     span: 7,

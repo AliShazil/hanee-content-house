@@ -7,10 +7,10 @@ export function BookCTA() {
 
         <div className="relative flex flex-col items-center px-6 py-20 text-center sm:py-24">
           <h2 className="font-montserrat text-[40px] leading-[42px] font-semibold text-[rgb(244,244,242)] sm:text-[54px] sm:leading-[55px]">
-            Have an idea to film?
+            Have footage ready to edit?
           </h2>
           <p className="mt-4 max-w-md font-montserrat text-[16px] leading-[26px] font-normal text-[rgb(155,155,150)]">
-            Our gear is charged and ready, let&apos;s make it happen.
+            Our timeline is open, send it over and let&apos;s make it happen.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
@@ -18,7 +18,7 @@ export function BookCTA() {
               type="button"
               className="rounded-full bg-violet-600 px-8 py-4 font-montserrat text-[15px] leading-[24px] font-semibold text-white transition-colors duration-300 hover:bg-violet-500"
             >
-              Book a Shoot
+              Send Your Footage
             </button>
             <button
               type="button"

@@ -64,11 +64,11 @@ export function PlatformConnectHero() {
         </span>
 
         <h2 className="mt-3 font-inter text-4xl font-bold text-white sm:text-[56px] sm:leading-[1.1]">
-          One shoot. Every platform.
+          One edit. Every platform.
         </h2>
 
         <p className="mt-4 max-w-[500px] font-inter text-base leading-[1.5] text-[#999] sm:text-lg">
-          Vertical for the feeds, horizontal for the long cut. We film it once and it
+          Vertical for the feeds, horizontal for the long cut. We edit it once and it
           goes wherever your audience already is.
         </p>
 

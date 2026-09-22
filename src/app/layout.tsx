@@ -25,7 +25,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "ContentHouse",
-  description: "On-demand videographer, booked when the moment happens.",
+  description: "On-demand video editor, turning raw footage into ready-to-post content, same day.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

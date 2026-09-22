@@ -2,8 +2,8 @@ import Image from "next/image";
 import { DiscordIcon } from "./DiscordIcon";
 
 const STATS = [
-  { label: "Same-Day Footage" },
-  { label: "Raw Files Included" },
+  { label: "Same-Day Turnaround" },
+  { label: "Unlimited Revisions" },
 ];
 
 export function Hero() {
@@ -11,7 +11,7 @@ export function Hero() {
     <section className="relative flex min-h-screen w-full flex-col overflow-hidden bg-black">
       <Image
         src="/hero.png"
-        alt="Videographer filming on set at ContentHouse"
+        alt="Video editor working on footage at ContentHouse"
         fill
         priority
         sizes="100vw"
@@ -28,13 +28,13 @@ export function Hero() {
         <h1 className="font-inter text-[32px] leading-[34px] font-bold text-white sm:text-[46px] sm:leading-[47px]">
           On Demand
           <br />
-          Videographer
+          Video Editing
           <br />
-          in Miami
+          For Your Footage
         </h1>
 
         <p className="mt-4 font-inter text-base leading-6 font-normal text-white/[0.78] sm:text-[18px] sm:leading-[24px]">
-          Book when the moment happens
+          Send your footage, get it back the same day
         </p>
 
         <div className="mt-6 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 rounded-full border border-white/10 bg-white/5 px-6 py-3 backdrop-blur-sm">
