@@ -149,7 +149,7 @@ export function PlatformConnectHero() {
 
           {/* Center node */}
           <div
-            className="absolute flex h-14 w-14 items-center justify-center rounded-full bg-white/95 sm:h-20 sm:w-20"
+            className="absolute flex h-14 w-14 items-center justify-center rounded-full bg-violet-600 sm:h-20 sm:w-20"
             style={{
               left: toPercent(CENTER.x, DIAGRAM_WIDTH),
               top: toPercent(CENTER.y, DIAGRAM_HEIGHT),
@@ -157,7 +157,7 @@ export function PlatformConnectHero() {
               boxShadow: "0 0 40px 10px rgba(168, 85, 247, 0.4)",
             }}
           >
-            <svg viewBox="0 0 24 24" className="h-6 w-6 fill-violet-700 sm:h-9 sm:w-9" aria-hidden="true">
+            <svg viewBox="0 0 24 24" className="h-6 w-6 fill-white sm:h-9 sm:w-9" aria-hidden="true">
               <path d="M6 4.5v15l14-7.5-14-7.5z" />
             </svg>
           </div>

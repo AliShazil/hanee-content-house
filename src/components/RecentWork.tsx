@@ -41,7 +41,7 @@ export function RecentWork() {
           Made to rewatch.
         </h2>
         <p className="mt-4 font-montserrat text-[16px] leading-[26px] font-normal text-[rgb(155,155,150)]">
-          Creators, brands, and footage turned into content worth keeping.
+          Creators and footage turned into content worth keeping.
         </p>
       </div>
 

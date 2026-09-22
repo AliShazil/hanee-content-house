@@ -69,7 +69,9 @@ export function Hero() {
       {/* CTA */}
       <div className="relative z-10 flex justify-center pb-10 pt-8">
         <a
-          href="#contact"
+          href="https://discord.com/users/956930765613039616"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-2.5 rounded-full bg-white px-8 py-4 font-montserrat text-[15px] leading-[24px] font-bold text-[#0a0a0a] transition-colors hover:bg-white/90"
         >
           <DiscordIcon className="h-5 w-5" />

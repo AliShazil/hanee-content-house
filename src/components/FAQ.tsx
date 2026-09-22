@@ -40,7 +40,7 @@ const QUESTIONS: QA[] = [
   {
     question: "How far in advance do I need to send my footage?",
     answer:
-      "No advance notice needed. Send it whenever it's ready and we start the same day.",
+      "No advance notice needed. Send it whenever it's ready and we start the same day. Advance notice is appreciated but never required or compulsory.",
   },
   {
     question: "What if I need to send more footage midway?",
