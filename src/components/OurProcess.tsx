@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 type Step = {
   number: string;
@@ -41,20 +41,11 @@ function ChevronIcon({ open }: { open: boolean }) {
   );
 }
 
-function ArrowUpRightIcon() {
-  return (
-    <svg viewBox="0 0 24 24" className="h-4 w-4 stroke-current" fill="none" aria-hidden="true">
-      <path d="M7 17L17 7M17 7H8M17 7V16" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
 export function OurProcess() {
   const [openIndex, setOpenIndex] = useState(0);
-  const sectionRef = useRef<HTMLElement>(null);
 
   return (
-    <section ref={sectionRef} className="relative bg-black py-24 sm:py-32">
+    <section className="relative bg-black py-24 sm:py-32">
       <div className="mx-auto max-w-2xl px-6 text-center">
         <span className="font-montserrat text-[12px] leading-[18px] font-semibold tracking-[0.15em] text-[rgb(107,107,102)] uppercase">
           Our Process
@@ -119,21 +110,6 @@ export function OurProcess() {
               </div>
             );
           })}
-        </div>
-
-        <div className="mt-12 flex justify-end sm:mt-16">
-          <button
-            type="button"
-            onClick={() =>
-              sectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })
-            }
-            className="group flex items-center gap-4 focus-visible:outline-none"
-          >
-            <span className="font-inter text-base font-semibold text-white">Our Process</span>
-            <span className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-black transition-transform duration-300 group-hover:scale-105 group-hover:rotate-45">
-              <ArrowUpRightIcon />
-            </span>
-          </button>
         </div>
       </div>
     </section>

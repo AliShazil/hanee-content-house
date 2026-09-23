@@ -29,8 +29,6 @@ export function Hero() {
           On Demand
           <br />
           Video Editing
-          <br />
-          For Your Footage
         </h1>
 
         <p className="mt-4 font-inter text-base leading-6 font-normal text-white/[0.78] sm:text-[18px] sm:leading-[24px]">

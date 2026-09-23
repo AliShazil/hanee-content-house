@@ -16,11 +16,7 @@ Single-page Next.js App Router site (`src/app/page.tsx`) built from one layout f
 ## Navbar
 
 **File:** src/components/Navbar.tsx
-**Location in code:** `<header>` element
-
-| ID | Current Text | Notes |
-|----|--------------|-------|
-| nav-1 | "Open menu" | `aria-label` on the mobile menu button (hamburger icon, no visible label) |
+**Location in code:** `<header>` element (no text of its own; just centers the logo)
 
 **File:** src/components/Logo.tsx
 **Location in code:** logo link, split across three `<span>` tags
@@ -98,7 +94,7 @@ Single-page Next.js App Router site (`src/app/page.tsx`) built from one layout f
 ## Our Process
 
 **File:** src/components/OurProcess.tsx
-**Location in code:** `<section>` intro block + `STEPS` array (3 accordion steps) + bottom CTA button
+**Location in code:** `<section>` intro block + `STEPS` array (3 accordion steps)
 
 | ID | Current Text | Notes |
 |----|--------------|-------|
@@ -113,7 +109,6 @@ Single-page Next.js App Router site (`src/app/page.tsx`) built from one layout f
 | process-9 | "03" | Step 3 — number |
 | process-10 | "Preview Deliverables" | Step 3 — title |
 | process-11 | "Selects land in your inbox within 48 hours. Flag your favorites, I finish the edit, and the final files are yours to post." | Step 3 — body |
-| process-12 | "Our Process" | Bottom button label (scrolls back to top of this section) |
 
 ## FAQ
 
@@ -144,21 +139,23 @@ Single-page Next.js App Router site (`src/app/page.tsx`) built from one layout f
 ## Book CTA
 
 **File:** src/components/BookCTA.tsx
-**Location in code:** `<section>` — heading, subtext, two buttons
+**Location in code:** `<section>` — heading, subtext, one button
 
 | ID | Current Text | Notes |
 |----|--------------|-------|
-| book-1 | "Have an idea to film?" | Section heading |
-| book-2 | "Our gear is charged and ready, let's make it happen." | Section subtext |
-| book-3 | "Book a Shoot" | Primary button label |
-| book-4 | "Call Us" | Secondary button label |
+| book-1 | "Have footage ready to edit?" | Section heading |
+| book-2 | "Our timeline is open, send it over and let's make it happen." | Section subtext |
+| book-3 | "Contact Now" | Button label (Telegram icon, links to https://t.me/ummahaneebhojani786) |
 
-## Create Something (Closing Statement)
+## Footer
 
-**File:** src/components/CreateSomething.tsx
-**Location in code:** `<section>`, single heading split across two styled `<span>` tags
+**File:** src/components/Footer.tsx
+**Location in code:** `<footer>` — heading split across two styled `<span>` tags, two link buttons, logo + copyright row
 
 | ID | Current Text | Notes |
 |----|--------------|-------|
-| create-1 | "Let's create" | First half of closing statement (brighter text) |
-| create-2 | "something worth replaying." | Second half of closing statement (dimmer text) |
+| create-1 | "Let's create" | First half of footer heading (brighter text) |
+| create-2 | "something worth replaying." | Second half of footer heading (dimmer text) |
+| footer-1 | "Contact Now" | Primary button (Telegram icon, links to Telegram) |
+| footer-2 | "See our work" | Secondary button (links to Google Drive folder) |
+| footer-3 | "© {year} Hanee Content House. All rights reserved." | Copyright line; year fills in automatically |
