@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { getImageProps } from "next/image";
 import { DiscordIcon } from "./DiscordIcon";
 
 // `short` is shown on phones so the whole pill fits on one line.
@@ -17,19 +17,31 @@ function ResponsiveLabel({ label, short }: { label: string; short: string }) {
   );
 }
 
+// Phones get a portrait version of the hero image; each device downloads only
+// the one it shows. Matches Tailwind's `sm` breakpoint (640px).
+const common = {
+  alt: "Video editor working on footage at ContentHouse",
+  fill: true,
+  sizes: "100vw",
+  loading: "eager",
+  fetchPriority: "high",
+} as const;
+
+const {
+  props: { srcSet: mobileSrcSet },
+} = getImageProps({ ...common, src: "/mobile-hero.png" });
+const { props: desktopProps } = getImageProps({ ...common, src: "/hero.png" });
+
 export function Hero() {
   return (
-    <section className="relative flex min-h-screen w-full flex-col overflow-hidden bg-black">
-      <Image
-        src="/hero.png"
-        alt="Video editor working on footage at ContentHouse"
-        fill
-        priority
-        sizes="100vw"
-        // The person stands slightly left of the image's centre; on narrow
-        // screens shift the crop so they sit in the middle.
-        className="object-cover object-[48%_center] sm:object-center"
-      />
+    // svh = the height left over when the mobile browser's address bar is showing,
+    // so the whole hero (including the button) fits on screen.
+    <section className="relative flex min-h-svh w-full flex-col overflow-hidden bg-black">
+      <picture>
+        <source media="(max-width: 639px)" srcSet={mobileSrcSet} sizes="100vw" />
+        {/* eslint-disable-next-line jsx-a11y/alt-text -- src and alt come from getImageProps */}
+        <img {...desktopProps} className="object-cover object-center" />
+      </picture>
 
       {/* Vignette / legibility gradients */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_0%,rgba(0,0,0,0.75),transparent_70%)]" />
@@ -78,7 +90,7 @@ export function Hero() {
       </div>
 
       {/* CTA */}
-      <div className="relative z-10 flex justify-center pb-10 pt-8">
+      <div className="relative z-10 flex justify-center pt-6 pb-8 sm:pt-8 sm:pb-10">
         <a
           href="https://discord.com/users/956930765613039616"
           target="_blank"
