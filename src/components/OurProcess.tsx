@@ -47,7 +47,7 @@ export function OurProcess() {
   return (
     <section className="relative bg-black py-24 sm:py-32">
       <div className="mx-auto max-w-2xl px-6 text-center">
-        <span className="font-montserrat text-[12px] leading-[18px] font-semibold tracking-[0.15em] text-[rgb(107,107,102)] uppercase">
+        <span className="font-montserrat text-[12px] leading-[18px] font-semibold tracking-[0.15em] text-violet-400 uppercase">
           Our Process
         </span>
         <h2 className="mt-4 font-montserrat text-[40px] leading-[42px] font-semibold text-[rgb(244,244,242)] sm:text-[54px] sm:leading-[55px]">
@@ -71,7 +71,11 @@ export function OurProcess() {
                   className="group flex w-full items-start justify-between gap-6 py-8 text-left focus-visible:outline-none"
                 >
                   <div className="flex items-start gap-6 sm:gap-10">
-                    <span className="pt-2 font-montserrat text-[13px] leading-[16px] font-medium tabular-nums text-[rgb(107,107,102)] sm:pt-3">
+                    <span
+                      className={`pt-2 font-montserrat text-[13px] leading-[16px] font-medium tabular-nums transition-colors duration-300 sm:pt-3 ${
+                        open ? "text-violet-400" : "text-[rgb(107,107,102)]"
+                      }`}
+                    >
                       {step.number}
                     </span>
                     <span
@@ -87,7 +91,7 @@ export function OurProcess() {
 
                   <span
                     className={`mt-2 flex h-8 w-8 shrink-0 items-center justify-center rounded-full transition-colors duration-300 sm:mt-3 ${
-                      open ? "text-white/90" : "text-white/30 group-hover:text-white/60"
+                      open ? "text-violet-400" : "text-white/30 group-hover:text-white/60"
                     }`}
                   >
                     <ChevronIcon open={open} />

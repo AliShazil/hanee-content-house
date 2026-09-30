@@ -83,7 +83,7 @@ export function WhyChooseUs() {
   return (
     <section className="relative bg-black py-24 sm:py-32">
       <div className="mx-auto max-w-2xl px-6 text-center">
-        <span className="font-montserrat text-[16px] leading-[26px] font-normal tracking-[0.2em] text-[rgb(155,155,150)] uppercase">
+        <span className="font-montserrat text-[16px] leading-[26px] font-normal tracking-[0.2em] text-violet-400 uppercase">
           Why ContentHouse
         </span>
         <h2 className="mt-4 font-montserrat text-[40px] leading-[42px] font-semibold text-[rgb(244,244,242)] sm:text-[54px] sm:leading-[55px]">

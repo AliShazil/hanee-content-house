@@ -68,7 +68,7 @@ export function FAQ() {
   return (
     <section className="relative bg-black py-24 sm:py-32">
       <div className="mx-auto max-w-2xl px-6 text-center">
-        <span className="font-montserrat text-[12px] leading-[18px] font-semibold tracking-[0.15em] text-[rgb(107,107,102)] uppercase">
+        <span className="font-montserrat text-[12px] leading-[18px] font-semibold tracking-[0.15em] text-violet-400 uppercase">
           Questions
         </span>
         <h2 className="mt-4 font-montserrat text-[40px] leading-[42px] font-semibold text-[rgb(244,244,242)] sm:text-[54px] sm:leading-[55px]">
@@ -96,7 +96,7 @@ export function FAQ() {
                   </span>
                   <span
                     className={`transition-colors duration-300 ${
-                      open ? "text-white/90" : "text-white/40 group-hover:text-white/70"
+                      open ? "text-violet-400" : "text-white/40 group-hover:text-white/70"
                     }`}
                   >
                     <PlusIcon open={open} />

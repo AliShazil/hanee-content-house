@@ -28,7 +28,7 @@ export function BookCTA() {
               href={TELEGRAM_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-8 py-4 font-montserrat text-[15px] leading-[24px] font-semibold text-white transition-colors duration-300 hover:bg-white/10"
+              className="flex items-center gap-3 rounded-full bg-violet-600 px-8 py-4 font-montserrat text-[15px] leading-[24px] font-semibold text-white shadow-[0_8px_30px_rgba(124,58,237,0.35)] transition-colors duration-300 hover:bg-violet-500"
             >
               <TelegramIcon />
               Contact Now

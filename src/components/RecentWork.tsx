@@ -17,13 +17,13 @@ export function RecentWork({ reels }: { reels: Reel[] }) {
         <p className="font-montserrat text-[28px] leading-[34px] font-semibold text-[rgb(244,244,242)] sm:text-[34px] sm:leading-[44px]">
           We build relationships.
         </p>
-        <p className="mx-auto mt-1 max-w-[560px] font-montserrat text-[28px] leading-[34px] font-semibold text-[rgb(107,107,102)] sm:text-[34px] sm:leading-[44px]">
+        <p className="mx-auto mt-1 max-w-[560px] font-montserrat text-[28px] leading-[34px] font-semibold text-violet-400 sm:text-[34px] sm:leading-[44px]">
           A video editor you can count on, on time, every time.
         </p>
       </div>
 
       <div className="mx-auto mt-28 max-w-2xl px-6 text-center sm:mt-36">
-        <span className="font-montserrat text-[16px] leading-[26px] font-normal tracking-[0.2em] text-[rgb(155,155,150)] uppercase">
+        <span className="font-montserrat text-[16px] leading-[26px] font-normal tracking-[0.2em] text-violet-400 uppercase">
           Recent Work
         </span>
         <h2 className="mt-4 font-montserrat text-[40px] leading-[42px] font-semibold text-[rgb(244,244,242)] sm:text-[54px] sm:leading-[55px]">
@@ -55,7 +55,7 @@ export function RecentWork({ reels }: { reels: Reel[] }) {
           href={DRIVE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="group relative flex aspect-9/16 w-[220px] flex-none flex-col items-center justify-center gap-4 rounded-2xl border border-white/10 bg-[rgb(24,24,24)] px-6 text-center transition-colors hover:bg-[rgb(32,32,32)] sm:w-[280px]"
+          className="group relative flex aspect-9/16 w-[220px] flex-none flex-col items-center justify-center gap-4 rounded-2xl border border-white/10 bg-[rgb(24,24,24)] px-6 text-center transition-colors hover:border-violet-500/40 hover:bg-[rgb(32,32,32)] sm:w-[280px]"
         >
           <span className="font-montserrat text-[20px] leading-[30px] font-semibold text-[rgb(244,244,242)]">
             See more on
